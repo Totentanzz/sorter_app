@@ -1,0 +1,46 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.javamodularity.moduleplugin' version '1.8.12'
+    id 'org.openjfx.javafxplugin' version '0.0.13'
+    id 'org.beryx.jlink' version '2.25.0'
+}
+
+group 'com.po_lab.sorter'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = '17'
+targetCompatibility = '17'
+
+application {
+    mainModule = 'com.po_lab.sorter.app'
+    mainClass = 'com.po_lab.sorter.app.App'
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'com.po_lab.sorter.app.App'
+    }
+}
+
+dependencies {
+    implementation files('lib/javafx-21/lib/javafx.base.jar',
+                         'lib/javafx-21/lib/javafx.controls.jar',
+                         'lib/javafx-21/lib/javafx.fxml.jar',
+                         'lib/javafx-21/lib/javafx.graphics.jar'
+    )
+}
+
+jlink {
+    launcher {
+        name = 'app'
+    }
+}
+
+jlinkZip {
+    group = 'distribution'
+}
