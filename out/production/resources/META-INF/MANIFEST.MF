@@ -1,5 +1,0 @@
-Manifest-Version: 1.0
-Main-Class: com.po_lab.sorter.app.App
-Class-Path: javafx.controls.jar javafx.fxml.jar javafx.base.jar javafx.g
- raphics.jar
-
