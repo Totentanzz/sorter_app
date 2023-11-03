@@ -10,43 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa70f7ca-4a3a-45f7-b0af-228c25c0d696" name="Changes" comment="Final version (possibility create executable fat jar and custom runtime image with jlink)">
-      <change beforePath="$PROJECT_DIR$/out/artifacts/PO_lab_1_jar/PO_lab-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/PO_lab_1_main/PO_lab_1_main.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/PO_lab_1_main/javafx.base.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/PO_lab_1_main/javafx.controls.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/PO_lab_1_main/javafx.fxml.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/PO_lab_1_main/javafx.graphics.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/PO_lab_1_main_jar/PO_lab-1.main.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/PO_lab_1_main_jar/javafx.base.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/PO_lab_1_main_jar/javafx.controls.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/PO_lab_1_main_jar/javafx.fxml.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/PO_lab_1_main_jar/javafx.graphics.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/test/com/po_lab/sorter/app/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/test/com/po_lab/sorter/app/controller/Controller$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/test/com/po_lab/sorter/app/controller/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/test/com/po_lab/sorter/app/model/chart/NumberBarChart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/test/com/po_lab/sorter/app/model/sorter/Sorter$STEP_RESULT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/test/com/po_lab/sorter/app/model/sorter/Sorter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/test/com/po_lab/sorter/app/utils/DataProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/test/javafx.base.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/test/javafx.controls.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/test/javafx.fxml.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/test/javafx.graphics.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/test/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/com/po_lab/sorter/app/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/com/po_lab/sorter/app/controller/Controller$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/com/po_lab/sorter/app/controller/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/com/po_lab/sorter/app/model/chart/NumberBarChart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/com/po_lab/sorter/app/model/sorter/Sorter$STEP_RESULT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/com/po_lab/sorter/app/model/sorter/Sorter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/com/po_lab/sorter/app/utils/DataProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/javafx.base.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/javafx.controls.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/javafx.fxml.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/javafx.graphics.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/unnamed/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/com/po_lab/sorter/app/view/appView.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +141,7 @@
       <command value="gradle distZip" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.sorter_app [clean]">
+  <component name="RunManager" selected="Gradle.sorter_app [fatJar]">
     <configuration name="sorter_app [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -292,9 +256,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.sorter_app [fatJar]" />
         <item itemvalue="Gradle.sorter_app [clean]" />
         <item itemvalue="Gradle.sorter_app [jlink]" />
-        <item itemvalue="Gradle.sorter_app [fatJar]" />
         <item itemvalue="Gradle.sorter_app [run]" />
         <item itemvalue="Gradle.sorter_app [jar]" />
       </list>
@@ -319,7 +283,7 @@
       <workItem from="1698493103109" duration="1750000" />
       <workItem from="1698992598277" duration="8142000" />
       <workItem from="1699000872945" duration="3377000" />
-      <workItem from="1699004274572" duration="28206000" />
+      <workItem from="1699004274572" duration="28308000" />
     </task>
     <task id="LOCAL-00001" summary="Final version (possibility create executable fat jar and custom runtime image with jlink)">
       <created>1699034419478</created>
@@ -342,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699034497050</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Final version (possibility create executable fat jar and custom runtime image with jlink)">
+      <created>1699034633002</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699034633002</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

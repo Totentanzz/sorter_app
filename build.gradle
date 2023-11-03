@@ -36,7 +36,7 @@ dependencies {
 javafx {
     sdk = 'lib/javafx-21/sdk'
     configuration = 'implementation'
-    modules = ['javafx.controls','javafx.fxml','javafx.base','javafx.graphics']
+    modules = ['javafx.controls','javafx.fxml']
 }
 
 jar {
