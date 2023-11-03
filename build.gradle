@@ -54,6 +54,7 @@ jlink {
     addExtraModulePath 'lib/javafx-21/jmods'
     launcher {
         name = 'app'
+        noConsole = true
     }
 
 }
